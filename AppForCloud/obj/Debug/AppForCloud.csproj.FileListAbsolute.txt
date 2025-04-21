@@ -1,0 +1,15 @@
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.csproj.AssemblyReference.cache
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.FrmLogin.resources
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.FrmNhanVien.resources
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.Properties.Resources.resources
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.csproj.GenerateResource.cache
+G:\AppForCloud\AppForCloud\obj\Debug\AppForCloud.csproj.CoreCompileInputs.cache
+G:\AppForCloud\AppForCloud\bin\Debug\QuanLyNhanVien.exe.config
+G:\AppForCloud\AppForCloud\bin\Debug\QuanLyNhanVien.exe.manifest
+G:\AppForCloud\AppForCloud\bin\Debug\QuanLyNhanVien.application
+G:\AppForCloud\AppForCloud\bin\Debug\QuanLyNhanVien.exe
+G:\AppForCloud\AppForCloud\bin\Debug\QuanLyNhanVien.pdb
+G:\AppForCloud\AppForCloud\obj\Debug\QuanLyNhanVien.exe.manifest
+G:\AppForCloud\AppForCloud\obj\Debug\QuanLyNhanVien.application
+G:\AppForCloud\AppForCloud\obj\Debug\QuanLyNhanVien.exe
+G:\AppForCloud\AppForCloud\obj\Debug\QuanLyNhanVien.pdb
