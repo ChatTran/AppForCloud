@@ -71,7 +71,6 @@
             this.txtPassword.TabIndex = 21;
             this.txtPassword.Text = "nhappassword";
             this.txtPassword.UseSystemPasswordChar = true;
-            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
             // 
             // label3
@@ -119,6 +118,7 @@
             // 
             // FrmLogin
             // 
+            this.AcceptButton = this.btLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(381, 378);

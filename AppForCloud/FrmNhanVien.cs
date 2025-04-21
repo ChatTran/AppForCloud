@@ -208,5 +208,18 @@ namespace AppForCloud
                 }
             }
         }
+
+        private void lkExit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                FrmLogin frmLG = new FrmLogin();
+                frmLG.Show();
+            }
+        }
+
     }
 }

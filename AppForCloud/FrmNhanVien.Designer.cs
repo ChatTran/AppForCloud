@@ -50,6 +50,7 @@
             this.txtTenPhongBan = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMaPB = new System.Windows.Forms.TextBox();
+            this.lkExit = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -264,11 +265,25 @@
             this.txtMaPB.TabIndex = 20;
             this.txtMaPB.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // lkExit
+            // 
+            this.lkExit.AutoSize = true;
+            this.lkExit.BackColor = System.Drawing.SystemColors.Control;
+            this.lkExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lkExit.Location = new System.Drawing.Point(1037, 565);
+            this.lkExit.Name = "lkExit";
+            this.lkExit.Size = new System.Drawing.Size(66, 32);
+            this.lkExit.TabIndex = 24;
+            this.lkExit.TabStop = true;
+            this.lkExit.Text = "Exit";
+            this.lkExit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lkExit_LinkClicked);
+            // 
             // FrmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 608);
+            this.ClientSize = new System.Drawing.Size(1134, 628);
+            this.Controls.Add(this.lkExit);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtMaPB);
             this.Controls.Add(this.txtTenPhongBan);
@@ -325,5 +340,6 @@
         private System.Windows.Forms.TextBox txtTenPhongBan;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtMaPB;
+        private System.Windows.Forms.LinkLabel lkExit;
     }
 }

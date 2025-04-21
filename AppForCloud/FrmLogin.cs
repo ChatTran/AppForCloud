@@ -56,7 +56,7 @@ namespace AppForCloud
                             this.Hide();
                             FrmNhanVien frmNV = new FrmNhanVien(role);
                             frmNV.ShowDialog();
-                            this.Close();
+                           // this.Close();
                         }
                         else
                         {
@@ -74,11 +74,6 @@ namespace AppForCloud
         private void txtUsername_Enter(object sender, EventArgs e)
         {
             txtUsername.Clear();
-        }
-
-        private void txtPassword_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void txtPassword_Enter(object sender, EventArgs e)
